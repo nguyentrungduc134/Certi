@@ -1,1 +1,18 @@
-#use git checkout . of file to undo a change that is not git add yet
+1,
+#use git checkout . or file to undo a change that is not git add yet
+#Jenkins is a popular CI orchestration tool providing plugins  that help run test suites, gather dashboard results, and provide details on failures.
+#when there is a merge conflict/conflict, a marker is added to the conflict file
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging#_basic_merge_conflicts
+https://stackoverflow.com/questions/7901864/git-conflict-markers
+---
+#ansible use lineinfile, replace, patch (gnu patch) to change file contents
+#ansible support key mapping  variable
+https://docs.ansible.com/ansible/2.5/user_guide/playbooks_variables.html#what-makes-a-valid-variable-name
+#Swarm:The service mode determines whether this is a replicated service or a global service. A replicated service runs as many tasks as specified, while a global service runs on each active node in the swarm.
+---
+#Service discovery is a technique for getting traffic from one container to another using the containers direct IP address, instead of an intermediary like a load balancer. 
+https://containersonaws.com/architecture/private-service-discovery/
+#Container platforms, broadly defined, are software solutions that allow you to manage containerized applications.3 main types
+https://www.aquasec.com/cloud-native-academy/container-platforms/container-platforms-6-best-practices-and-15-top-solutions/
+##2 ways to discover service: dns and set env variable
+https://kubernetes.io/docs/tasks/inject-data-application/define-interdependent-environment-variables/
