@@ -16,3 +16,13 @@ https://containersonaws.com/architecture/private-service-discovery/
 https://www.aquasec.com/cloud-native-academy/container-platforms/container-platforms-6-best-practices-and-15-top-solutions/
 ##2 ways to discover service: dns and set env variable
 https://kubernetes.io/docs/tasks/inject-data-application/define-interdependent-environment-variables/
+2,
+---
+#Kubernetes objects are entities that are used to represent the state of the cluster, top of it is apiVersion
+#RUN, ADD, COPY create image layer
+https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#minimize-the-number-of-layers
+#docker compose down remov containers and networks, with option rmi to remove images, -v to remove voluems
+---
+#"User-defined bridge networks are best when you need multiple containers to communicate on the same Docker host.
+Overlay networks are best when you need containers running on different Docker hosts to communicate, or when multiple applications work together using swarm services
+#could copy data to directory then create volume
