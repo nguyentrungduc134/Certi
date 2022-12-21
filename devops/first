@@ -26,3 +26,5 @@ https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#minimi
 #"User-defined bridge networks are best when you need multiple containers to communicate on the same Docker host.
 Overlay networks are best when you need containers running on different Docker hosts to communicate, or when multiple applications work together using swarm services
 #docker could copy data to directory then create volume
+##it is possible to use vagrant ssh or key to access vagrant user
+https://lebenplusplus.de/2017/07/19/how-to-use-your-vagrant-box-ssh-credentials/
