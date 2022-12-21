@@ -25,4 +25,4 @@ https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#minimi
 ---
 #"User-defined bridge networks are best when you need multiple containers to communicate on the same Docker host.
 Overlay networks are best when you need containers running on different Docker hosts to communicate, or when multiple applications work together using swarm services
-#could copy data to directory then create volume
+#docker could copy data to directory then create volume
